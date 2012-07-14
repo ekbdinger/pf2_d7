@@ -1,0 +1,10 @@
+name = d7pf_pp_cck_descriptions
+description = The main PP view
+core = 7.x
+package = D7 Upgrade
+php = 5.2.4
+dependencies[] = ctools
+dependencies[] = views
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:1
+features[views_view][] = pp_cck_descriptions

@@ -1,0 +1,8 @@
+name = d7pf_security_pp_tax
+core = 7.x
+package = D7 Upgrade
+dependencies[] = ctools
+dependencies[] = views
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:1
+features[views_view][] = security_pp_tax

@@ -1,0 +1,10 @@
+name = d7pf_pp_panel
+description = Initial build of the PP with panels
+core = 7.x
+package = D7 Upgrade
+php = 5.2.4
+dependencies[] = ctools
+dependencies[] = page_manager
+features[ctools][] = page_manager:pages_default:1
+features[features_api][] = api:1
+features[page_manager_pages][] = pp_cck
